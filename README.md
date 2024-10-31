@@ -12,16 +12,6 @@ Projeto do desafio de modelagem dimensional utilizando fórmula DAX no Power BI 
 3. Utilizar fórmula DAX 'calendar' para criação da tabela dimensão 'data'.
 
 
-## Etapas do projeto
-1. Replicar o diagrama relacional no [SqlDBM](https://sqldbm.com/Home/).
-2. Geração de SQL no SqlDBM para gerar o script de criação do banco de dados.
-3. Criação do novo banco de dados MySQL na instância do Azure.
-4. Criação das tabelas.
-5. Conexão do banco de dados MySQL com o Power BI.
-6. Fazer a modelagem dos dados no Power BI com o Power Query.
-7. Criar o diagrama dimensional - star schema.
-
-
 ## Aplicações utilizadas
 Power BI<br>
 Power Query<br>
@@ -33,24 +23,17 @@ Fórmulas DAX<br>
 
 2. Fazer transformações no Power Query:
 
-a. duplicação da tabela 'financial sample'.
-
-b. renomeação as tabelas para fato e dimensão.
-
-c. eliminação das colunas desnecessárias para cada tabela dimensão.
-
-d. verificar se 'tipo de dado' está de acordo.
-
-e. realização de agrupamentos.
-
-f. criação das colunas 'índice'.
-
-g. criação das colunas condicionais para gerar 'ID_Produto'.
-
-h. remoção das linhas duplicadas.
+      a. duplicação da tabela 'financial sample'.<br>
+      b. renomeação as tabelas para fato e dimensão.<br>
+      c. eliminação das colunas desnecessárias para cada tabela dimensão.<br>
+      d. verificar se 'tipo de dado' está de acordo.<br>
+      e. realização de agrupamentos.<br>
+      f. criação das colunas 'índice'.<br>
+      g. criação das colunas condicionais para gerar 'ID_Produto'.<br>
+      h. remoção das linhas duplicadas.<br>
 
 
-3. Criação das tabela dimensão 'd_Nova_Data' utilizando a fórmula DAX função 'calendar'.
+3. Criação da tabela dimensão 'd_Nova_Data' utilizando a fórmula DAX função 'calendar'.
 
 
-3. Criação das relações através do Power BI em 'gerenciar relações'. Modelagem dimensional em star schema concluída.
+4. Criação das relações através do Power BI em 'gerenciar relações'. Modelagem dimensional em star schema concluída.
